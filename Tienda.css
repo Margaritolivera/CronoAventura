@@ -1,5 +1,3 @@
-/* Estilos de Index*/
-/*------------------------------------------------------------*/
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@400;900&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@700&display=swap');
 
@@ -179,6 +177,12 @@ h6{
     justify-content: center;
     flex-wrap: wrap;
 }
+.JuegosContainer{
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .headerJuegos{
     width: 80%;
     display: flex;
@@ -240,6 +244,12 @@ h6{
     height: 20vh;
     background-color: #707070;
     display: flex;
+    justify-content: center;
+}
+.FooterContainer{
+    width: 81%;
+    display: flex;
+    margin-left: 5%;
     justify-content: space-around;
 }
 
@@ -256,5 +266,5 @@ h6{
 .divImages{
     width: 35%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;
 }
